@@ -2,7 +2,11 @@
   "name": "demo2",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start:test": "NODE_ENV=testing playwright test",
+    "start:test:debug": "NODE_ENV=testing playwright test --debug",
+    "start:test:report": "NODE_ENV=testing show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,5 +14,8 @@
   "devDependencies": {
     "@playwright/test": "^1.54.1",
     "@types/node": "^24.1.0"
+  },
+  "dependencies": {
+    "config": "^4.1.0"
   }
 }
