@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start:test": "NODE_ENV=testing playwright test",
-    "start:test:debug": "NODE_ENV=testing playwright test --debug",
-    "start:test:report": "NODE_ENV=testing show-report"
+    "start:test": "set NODE_ENV=testing playwright test",
+    "start:test:debug": "set NODE_ENV=testing playwright test --debug",
+    "start:test:report": "set NODE_ENV=testing show-report"
   },
   "keywords": [],
   "author": "",
